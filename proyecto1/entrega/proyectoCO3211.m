@@ -53,7 +53,7 @@ C1_m3 = randomSol3(L1,U1,10);
 C2_m3 = randomSol3(L2,U2,10);
 C3_m3 = randomSol3(L3,U3,10);
 C4_m3 = randomSol3(L4,U4,10);
-C5_m3 = randomSol3(L5,U5,100);
+C5_m3 = randomSol3(L5,U5,10);
 
 disp("A continuación se muestran las mejores aproximaciones para cada Método:")
 disp("")
