@@ -16,4 +16,20 @@ E: es la triangular inferior sin diagonal
 F: es triangular duperior sin diagonal.
 
 x^(i+1) = D^-1(E+F)x^(i) + D^-1b
+
+Con gauss-seidel hacemos:
+A = D -E -F con:
+M = D-E
+N = F
+Haces: (D-E)x^(i+1) = F(x(i)) + b
+
+[Teorema]
+ radioEspectral(D^-1(L+U))<1 ssi jacobi converge
+
+[Teorema]
+radioEspc(N^-1*P)<1 ssi seidel converge
+
+N = trim(A) = F*U
+P = -L
+ 
 %}
