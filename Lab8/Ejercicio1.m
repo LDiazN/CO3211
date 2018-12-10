@@ -146,5 +146,65 @@ plot(x,y,"+")
 hold on
 plot(x,polyval(vanPoli_g49,x))
 legend("f(x)","Vander grado 49")
-legend("Location",'southwest')
+legend("Location",'north')
+
+%   Para el conjunto x30 (30 puntos):
+figure
+subplot(3,2,[1,2])
+plot(x,y,"+")
+hold on
+title("Conjunto de 30 puntos")
+plot(x,polyval(vanPoli_g9,x))
+plot(x,polyval(newtPoli_g3x30,x))
+plot(x,polyval(newtPoli_g3xCheby30,x))
+legend("f(x)","Vander grado 9","Newton Lins grado 3","Newton Cheby grado 3")
+legend("Location",'south')
+
+subplot(3,2,[3,4])
+plot(x,y,"+")
+hold on
+plot(x,polyval(vanPoli_g29,x))
+plot(x,polyval(newtPoli_g7x30,x))
+plot(x,polyval(newtPoli_g7xCheby30,x))
+legend("f(x)","Vander grado 29","Newton Lins grado 7","Newton Cheby grado 7")
+legend("Location",'north')
+
+subplot(3,2,[5,6])
+plot(x,y,"+")
+hold on
+plot(x,polyval(vanPoli_g49,x))
+plot(x,polyval(newtPoli_g13x30,x))
+plot(x,polyval(newtPoli_g13xCheby30,x))
+legend("f(x)","Vander grado 49","Newton lins grado 13", "Newton Cheby grado 13")
+legend("Location",'north')
+
+%   Para el conjunto x50 (50 puntos):
+figure
+subplot(3,2,[1,2])
+plot(x,y,"+")
+hold on
+title("Conjunto de 50 puntos")
+plot(x,polyval(vanPoli_g49,x))
+plot(x,polyval(newtPoli_g3x50,x))
+plot(x,polyval(newtPoli_g3xCheby50,x))
+legend("f(x)","Vander grado 9","Newton Lins grado 3","Newton Cheby grado 3")
+legend("Location",'north')
+
+subplot(3,2,[3,4])
+plot(x,y,"+")
+hold on
+plot(x,polyval(vanPoli_g49,x))
+plot(x,polyval(newtPoli_g7x50,x))
+plot(x,polyval(newtPoli_g7xCheby50,x))
+legend("f(x)","Vander grado 29","Newton Lins grado 7","Newton Cheby grado 7")
+legend("Location",'north')
+
+subplot(3,2,[5,6])
+plot(x,y,"+")
+hold on
+plot(x,polyval(vanPoli_g49,x))
+plot(x,polyval(newtPoli_g13x50,x))
+plot(x,polyval(newtPoli_g13xCheby50,x))
+legend("f(x)","Vander grado 49","Newton lins grado 13", "Newton Cheby grado 13")
+legend("Location",'north')
 
