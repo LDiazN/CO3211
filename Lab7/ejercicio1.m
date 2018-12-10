@@ -9,13 +9,13 @@ load data
 %Calculamos los coeficientes de cada sistema.
 P1 = fliplr(lilSquares(xd,yd,5).')
 P2 = fliplr(lilSquares(xd,yd,15).')
-P3 = fliplr(lilSquares(xd,yd,20).')
-
+P3 = fliplr(lilSquares(xd,yd,4).')
+x_func = 1:0.1:8;
 %Ahora el error cuadrático medio para cada sistema:
 %Primero valuamos nuestros sistemas con los valores de x ofrecidos:
-Y1 = polyval(P1,xd);
-Y2 = polyval(P2,xd);
-Y3 = polyval(P3,xd);
+Y1 = polyval(P1,x_func);
+Y2 = polyval(P2,x_func);
+Y3 = polyval(P3,x_func);
 
 %Ahora calculamos los errores cuadráticos medios.
 ECM1 = sum((yd - Y1).^2)/length(yd)
@@ -27,13 +27,13 @@ figure
 plot(xd,yd,"*")
 
 hold on
-plot(xd,Y1)
+plot(x_func,Y1)
 
 hold on
-plot(xd,Y2)
+plot(x_func,Y2)
 
 hold on
-plot(xd,Y3)
+plot(x_func,Y3)
 legend("datos","Grado 5","Grado15","Grado 20")
 legend("Location",'southeast')
 title("temperatura vs tiempo")
