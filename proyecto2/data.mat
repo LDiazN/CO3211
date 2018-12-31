@@ -1,0 +1,197 @@
+# Created by Octave 4.4.1, Sun Dec 30 18:31:05 2018 -04 <blitz@blitz-pc>
+# name: paraguana_1x
+# type: matrix
+# rows: 1
+# columns: 44
+ 58 59 61 75 91 106 117 132 150 167 179 187 193 196 203 213 221 229 239 243 257 266 275 284 303 314 328 337 347 352 356 362 367 368 370 373 376 378 384 386 392 395 401 403
+
+
+# name: paraguana_1y
+# type: matrix
+# rows: 1
+# columns: 44
+ 61 53 46 37 37 37 42 45 47 53 55 57 61 60 60 64 70 71 69 70 73 75 78 79 81 84 86 89 93 88 85 84 87 94 98 93 84 79 70 62 51 43 31 21
+
+
+# name: paraguana_2x
+# type: matrix
+# rows: 1
+# columns: 7
+ 59 60 61 64 68 71 74
+
+
+# name: paraguana_2y
+# type: matrix
+# rows: 1
+# columns: 7
+ 60 66 71 75 82 87 92
+
+
+# name: paraguana_3x
+# type: matrix
+# rows: 1
+# columns: 4
+ 70 71 73 74
+
+
+# name: paraguana_3y
+# type: matrix
+# rows: 1
+# columns: 4
+ 105 101 98 92
+
+
+# name: paraguana_4x
+# type: matrix
+# rows: 1
+# columns: 4
+ 70 72 75 77
+
+
+# name: paraguana_4y
+# type: matrix
+# rows: 1
+# columns: 4
+ 105 109 111 114
+
+
+# name: paraguana_5x
+# type: matrix
+# rows: 1
+# columns: 7
+ 59 60 63 67 72 76 77
+
+
+# name: paraguana_5y
+# type: matrix
+# rows: 1
+# columns: 7
+ 139 132 128 121 118 117 114
+
+
+# name: paraguana_6x
+# type: matrix
+# rows: 1
+# columns: 6
+ 59 65 70 74 79 82
+
+
+# name: paraguana_6y
+# type: matrix
+# rows: 1
+# columns: 6
+ 139 141 138 134 134 136
+
+
+# name: paraguana_7x
+# type: matrix
+# rows: 1
+# columns: 7
+ 64 65 70 75 77 80 82
+
+
+# name: paraguana_7y
+# type: matrix
+# rows: 1
+# columns: 7
+ 153 165 167 162 154 146 138
+
+
+# name: paraguana_8x
+# type: matrix
+# rows: 1
+# columns: 15
+ 21 23 25 28 30 33 37 41 47 50 52 55 58 61 64
+
+
+# name: paraguana_8y
+# type: matrix
+# rows: 1
+# columns: 15
+ 260 233 229 222 205 197 195 192 185 178 169 159 154 152 153
+
+
+# name: paraguana_9x
+# type: matrix
+# rows: 1
+# columns: 15
+ 21 23 28 34 42 45 47 51 54 60 65 70 75 79 81
+
+
+# name: paraguana_9y
+# type: matrix
+# rows: 1
+# columns: 15
+ 259 269 279 287 298 310 319 327 335 344 350 356 363 370 376
+
+
+# name: paraguana_10x
+# type: matrix
+# rows: 1
+# columns: 4
+ 74 76 79 80
+
+
+# name: paraguana_10y
+# type: matrix
+# rows: 1
+# columns: 4
+ 388 385 381 375
+
+
+# name: paraguana_11x
+# type: matrix
+# rows: 1
+# columns: 51
+ 74 75 82 90 97 104 121 127 132 142 152 159 166 176 179 183 192 198 205 213 226 231 239 246 252 259 263 272 278 291 298 304 313 317 320 321 327 334 341 344 345 349 352 355 357 364 366 367 368 373 374
+
+
+# name: paraguana_11y
+# type: matrix
+# rows: 1
+# columns: 51
+ 388 394 402 406 407 407 409 412 416 425 433 438 444 451 452 457 462 466 471 475 477 471 463 456 451 451 453 452 451 444 436 430 420 412 401 395 386 379 370 365 355 348 346 339 333 323 312 302 293 288 279
+
+
+# name: paraguana_12x
+# type: matrix
+# rows: 1
+# columns: 4
+ 368 369 373 374
+
+
+# name: paraguana_12y
+# type: matrix
+# rows: 1
+# columns: 4
+ 263 269 273 279
+
+
+# name: paraguana_13x
+# type: matrix
+# rows: 1
+# columns: 5
+ 368 369 370 372 373
+
+
+# name: paraguana_13y
+# type: matrix
+# rows: 1
+# columns: 5
+ 264 258 252 241 229
+
+
+# name: paraguana_14x
+# type: matrix
+# rows: 1
+# columns: 19
+ 371 372 375 380 383 385 386 388 390 392 396 400 403 406 408 410 413 416 420
+
+
+# name: paraguana_14y
+# type: matrix
+# rows: 1
+# columns: 19
+ 228 220 207 195 182 171 161 157 151 146 137 128 117 104 95 86 79 73 67
+
+

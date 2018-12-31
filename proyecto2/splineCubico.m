@@ -39,8 +39,6 @@ function S = splineCubico(X,Y,tiedSp_0,tiedSp_n)
       %Configuramos A:
       for i = 1:1:n-2
         A(i,i) = 2*(h(i) + h(i+1));
-        %A(i,i-1) = h(i-1);
-        %A(i,i+1) = h(i);
       endfor
       
       for i = 2:1:n-2
