@@ -57,7 +57,7 @@ function S = splineCubico(X,Y,tiedSp_0,tiedSp_n)
       b = b(2:n-1);
       
       %Resolvemos:
-      S(2:n-1,3) = (A^-1)*b;
+      S(2:n-1,3) = (A)\b;
       S(1,3) = 0;
       S(n,3) = 0;
     case 4
@@ -100,11 +100,5 @@ function S = splineCubico(X,Y,tiedSp_0,tiedSp_n)
     %S(i,2) = b_i, S(i,4) = d_i
     S(i,2) = (1/h(i))*(S(i+1,1) - S(i,1)) - (h(i)/3)*(2*S(i,3) + S(i+1,3));
     S(i,4) = (S(i+1,3) - S(i,3))/(3*h(i));
-  endfor
-  
-  
-  
-  
-  
-  
+  endfor 
 endfunction
